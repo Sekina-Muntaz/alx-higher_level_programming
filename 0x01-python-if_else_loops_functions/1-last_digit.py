@@ -3,8 +3,6 @@ import random
 
 number = random.randint(-10000, 10000)
 
-print(number)
-
 last_number = abs(number) % 10
 
 print("The string Last digit of", number, "is", last_number, end=" ")
@@ -15,3 +13,4 @@ elif last_number == 0:
     print("and is 0")
 else:
     print("and is less than 6 and not 0")
+
